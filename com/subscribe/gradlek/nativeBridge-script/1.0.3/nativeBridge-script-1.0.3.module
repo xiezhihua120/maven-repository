@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.subscribe.gradlek",
+    "module": "nativeBridge-script",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3-rc-2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-script-1.0.3.jar",
+          "url": "nativeBridge-script-1.0.3.jar",
+          "size": 17459,
+          "sha512": "c31ce68086fe4c4498bf19412a0088e31c928aea292069522eb1790f7554578aad6f4542948a33ce29117b78d7210aa583ccdc3022047a796678b52f37ef662e",
+          "sha256": "148d22fb8d5f60e8e30532958625bc40cd49978d6441edb5472a5f93bdf53ea4",
+          "sha1": "c9ca2b2c3ae09f6643177d155aa165636b63de10",
+          "md5": "61e70c091fb3bc8b66a1bda5b0e8325f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-script-1.0.3.jar",
+          "url": "nativeBridge-script-1.0.3.jar",
+          "size": 17459,
+          "sha512": "c31ce68086fe4c4498bf19412a0088e31c928aea292069522eb1790f7554578aad6f4542948a33ce29117b78d7210aa583ccdc3022047a796678b52f37ef662e",
+          "sha256": "148d22fb8d5f60e8e30532958625bc40cd49978d6441edb5472a5f93bdf53ea4",
+          "sha1": "c9ca2b2c3ae09f6643177d155aa165636b63de10",
+          "md5": "61e70c091fb3bc8b66a1bda5b0e8325f"
+        }
+      ]
+    }
+  ]
+}
