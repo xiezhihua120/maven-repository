@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.subscribe.gradlek",
+    "module": "nativeBridge-script",
+    "version": "1.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-script-1.0.20.jar",
+          "url": "nativeBridge-script-1.0.20.jar",
+          "size": 18858,
+          "sha512": "d8dd36cf46cb4b305daa6c8e89f9993b9a7a4ba0cf31c3d69f39f2fd8097f58cd4962268f689673efeb41f5a3296a7f877be7320442f27b04d5b3306b0ef1176",
+          "sha256": "8e46e31c72b2eac2bd385ae6e6257c0be90c2fbfc0bf285e5a5db5adff97c0ae",
+          "sha1": "d5d25d81955f144513e518c337fdd36e813f7a55",
+          "md5": "fcf2727f553ccdfece5b161439db82dc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 18,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-script-1.0.20.jar",
+          "url": "nativeBridge-script-1.0.20.jar",
+          "size": 18858,
+          "sha512": "d8dd36cf46cb4b305daa6c8e89f9993b9a7a4ba0cf31c3d69f39f2fd8097f58cd4962268f689673efeb41f5a3296a7f877be7320442f27b04d5b3306b0ef1176",
+          "sha256": "8e46e31c72b2eac2bd385ae6e6257c0be90c2fbfc0bf285e5a5db5adff97c0ae",
+          "sha1": "d5d25d81955f144513e518c337fdd36e813f7a55",
+          "md5": "fcf2727f553ccdfece5b161439db82dc"
+        }
+      ]
+    }
+  ]
+}
