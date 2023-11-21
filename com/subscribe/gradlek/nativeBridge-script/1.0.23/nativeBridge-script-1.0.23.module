@@ -20,7 +20,7 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 18,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
@@ -30,10 +30,10 @@
           "name": "nativeBridge-script-1.0.23.jar",
           "url": "nativeBridge-script-1.0.23.jar",
           "size": 10509,
-          "sha512": "b63123734215e9a1412e2e6b874bbcb28df7df4c5498f366b490cf0ef1f2a06238b7dc8e8f5d0b2cba455b29b1d851d69ce358bde615cabb9c88e32a71b0d708",
-          "sha256": "6e5b45dc545c9424076e48170f1ecd9d445682053b9ab7ddde80657c373dd05f",
-          "sha1": "e33d819fd43f6fb5d4f5a848651b79302f130775",
-          "md5": "e5d17a5f89ed802a189598aafdb358fe"
+          "sha512": "6385d4d3cb42cc52dd9ccd6720c39fdab5aa9fcfc0056a273d902c54076e307bdde9f4cde82b0be626cea8e8647a32a760d42d33ce890180b84f3b046eed7f4d",
+          "sha256": "0644ab28dbc62985532bba557275c9e901b9e9ebab3a77a7988d2b87ccf75c84",
+          "sha1": "fed19d741d98075ae66f4b5c289650a719c348a7",
+          "md5": "48a7a2c688f843a53ed795a6937c4873"
         }
       ]
     },
@@ -43,7 +43,7 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 17,
+        "org.gradle.jvm.version": 18,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "jvm"
@@ -62,10 +62,10 @@
           "name": "nativeBridge-script-1.0.23.jar",
           "url": "nativeBridge-script-1.0.23.jar",
           "size": 10509,
-          "sha512": "b63123734215e9a1412e2e6b874bbcb28df7df4c5498f366b490cf0ef1f2a06238b7dc8e8f5d0b2cba455b29b1d851d69ce358bde615cabb9c88e32a71b0d708",
-          "sha256": "6e5b45dc545c9424076e48170f1ecd9d445682053b9ab7ddde80657c373dd05f",
-          "sha1": "e33d819fd43f6fb5d4f5a848651b79302f130775",
-          "md5": "e5d17a5f89ed802a189598aafdb358fe"
+          "sha512": "6385d4d3cb42cc52dd9ccd6720c39fdab5aa9fcfc0056a273d902c54076e307bdde9f4cde82b0be626cea8e8647a32a760d42d33ce890180b84f3b046eed7f4d",
+          "sha256": "0644ab28dbc62985532bba557275c9e901b9e9ebab3a77a7988d2b87ccf75c84",
+          "sha1": "fed19d741d98075ae66f4b5c289650a719c348a7",
+          "md5": "48a7a2c688f843a53ed795a6937c4873"
         }
       ]
     }
