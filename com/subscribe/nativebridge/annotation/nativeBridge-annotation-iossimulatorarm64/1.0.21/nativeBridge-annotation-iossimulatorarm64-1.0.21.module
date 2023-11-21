@@ -118,10 +118,10 @@
           "name": "nativeBridge-annotation-iossimulatorarm64-1.0.21-metadata.jar",
           "url": "nativeBridge-annotation-iossimulatorarm64-1.0.21-metadata.jar",
           "size": 261,
-          "sha512": "51210a487d30ebf1e7f440f8f51014dc36a4be7fcb858ceef7f4307900766ff1feb59e0f40016fed8e9da37fc30c404f1edf4043b1dde019faa052532a5411f3",
-          "sha256": "142c297fa20e3e903a87dfcf3d3880fcdece20fe1e86fc8578f976842d7f331e",
-          "sha1": "412d754c2cf0c65c04fbd6f7f9ad0bd484f75f71",
-          "md5": "5e969dcd76776f94b87622848c28627f"
+          "sha512": "d5d463a62ceabf44160e11a3da3e39333059a6843ce821f9073e58e532f4e344908578eebf41fefb3e6a06c94cefa2c74c0a1e7903833d75955e00c390711bc7",
+          "sha256": "585af465b2303f9f9eb4ae73ab63c9ceb4db2de63ba4074019243b6265b14b2f",
+          "sha1": "57c713b3ea56d6a834e539ac456c16f17a346f91",
+          "md5": "f75acfb39bf25dfc1af229f62d3fcda5"
         }
       ]
     }
