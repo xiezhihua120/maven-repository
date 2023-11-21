@@ -16,7 +16,7 @@
       "extras": {
         "jvm": {
           "jvmTarget": "1.8",
-          "withJavaEnabled": true
+          "withJavaEnabled": false
         }
       }
     },
