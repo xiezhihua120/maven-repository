@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../nativeBridge-annotation/1.0.28/nativeBridge-annotation-1.0.28.module",
+    "group": "com.subscribe.nativebridge.annotation",
+    "module": "nativeBridge-annotation",
+    "version": "1.0.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-annotation.klib",
+          "url": "nativeBridge-annotation-iossimulatorarm64-1.0.28.klib",
+          "size": 23802,
+          "sha512": "2592daaa2e583a14782d960da63ad4a1a57c23d9d63a702765d74a93dd3e459002684dcfeb9f9c5c21e994de7286b908a271698cfd55f63c8717c999ed1fa397",
+          "sha256": "4f4cb96c0cc4385eb712eb5d9c97e289acf833ff85e601e3cb89e8a4e8a1623e",
+          "sha1": "b99bde71c5895b5dfd0f3a8d0eb28798de955225",
+          "md5": "a28cb0a058d4f3aa3d388f67dedc6e75"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "nativeBridge-annotation-iossimulatorarm64-1.0.28-sources.jar",
+          "url": "nativeBridge-annotation-iossimulatorarm64-1.0.28-sources.jar",
+          "size": 8451,
+          "sha512": "f01cf4aa0e95695a83c14111916b30effdb2472e6d1ccd5cb6aa2f138f31627524f34c0e58580d7e7a503daaf70de5c43f664962ee157c5222df2933d1f83eae",
+          "sha256": "b2d9b2fb7a5d5ab78d66236f6628844a9ec5fa9984217e85ef54cb1e3f022127",
+          "sha1": "3568d2359547b222a58d828d5d3f84b8be093fd6",
+          "md5": "2cfa6890251d47563602f6cdea893f6e"
+        }
+      ]
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-annotation-iossimulatorarm64-1.0.28-metadata.jar",
+          "url": "nativeBridge-annotation-iossimulatorarm64-1.0.28-metadata.jar",
+          "size": 261,
+          "sha512": "62a82855756318a91eb82984009078de0fd325ac317947123ff01f695d8ef8fab4965a3a71fbed306694b79a5c74bb930b37d8d29da54f7bfc0aa9d9372cbd7f",
+          "sha256": "75f3ff5a269977457607581904f619539436151c2a00fda10a26b9df03483584",
+          "sha1": "8286694b7d54a26d5b8dea127fce408a2db3b147",
+          "md5": "5003a4aa7088441373777a2f697d78c5"
+        }
+      ]
+    }
+  ]
+}

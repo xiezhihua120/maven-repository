@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../nativeBridge-annotation/1.0.28/nativeBridge-annotation-1.0.28.module",
+    "group": "com.subscribe.nativebridge.annotation",
+    "module": "nativeBridge-annotation",
+    "version": "1.0.28",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-annotation.klib",
+          "url": "nativeBridge-annotation-mingwx64-1.0.28.klib",
+          "size": 23717,
+          "sha512": "a217e67e39749c2986aa8aebc0d3fd1bfcfe386c1b628ad8027d1ec5d711cef03dbbedb4cf4920ca80b5b1f5f98a1c26b8a3be0a4a0ab0b23d023b3935276954",
+          "sha256": "bb18c03e2b516107f8d7853f9e642869a6df36b6bdb97b043952d571bac176e7",
+          "sha1": "3154b6e83c416eca6a531060fc56222a0ba37e14",
+          "md5": "b99c7179bab74315d1096754b551cac9"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "nativeBridge-annotation-mingwx64-1.0.28-sources.jar",
+          "url": "nativeBridge-annotation-mingwx64-1.0.28-sources.jar",
+          "size": 8451,
+          "sha512": "f01cf4aa0e95695a83c14111916b30effdb2472e6d1ccd5cb6aa2f138f31627524f34c0e58580d7e7a503daaf70de5c43f664962ee157c5222df2933d1f83eae",
+          "sha256": "b2d9b2fb7a5d5ab78d66236f6628844a9ec5fa9984217e85ef54cb1e3f022127",
+          "sha1": "3568d2359547b222a58d828d5d3f84b8be093fd6",
+          "md5": "2cfa6890251d47563602f6cdea893f6e"
+        }
+      ]
+    }
+  ]
+}
