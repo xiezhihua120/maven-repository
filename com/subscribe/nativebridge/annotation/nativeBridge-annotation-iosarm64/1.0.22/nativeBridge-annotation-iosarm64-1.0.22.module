@@ -118,10 +118,10 @@
           "name": "nativeBridge-annotation-iosarm64-1.0.22-metadata.jar",
           "url": "nativeBridge-annotation-iosarm64-1.0.22-metadata.jar",
           "size": 261,
-          "sha512": "26817119c7e29411bd85df79f0c3023e02499518debec72951f5d038e4b7a2bb525c774d7ba396928c50898373acf83eaef402655c49a72b2a06f20307a3e143",
-          "sha256": "b97194f0b6886457358881d173d88a695f7ec4cc0b771b98bc0c17327f4a0837",
-          "sha1": "97849c11d695b48dbfdf0f9677fbc0a30eef7da0",
-          "md5": "7c3023af7607907f35c18a96fd91c14f"
+          "sha512": "144f4c782bb5862c12b1c28d5602469a0dd91483b39ad997fefd7d9e7e27e1876017f990b1d63033ebc90dfbd9d9484342ea7e9d15c37b4a703cb4d511a4625d",
+          "sha256": "306a4d6921a4d2094fe340063292a1c596712a46a9dabbae2c8a9076b6072b30",
+          "sha1": "018bc7d5271b64b8cb84fcdcb430cbb006115b52",
+          "md5": "96394e270f7d7830480472d7141c6262"
         }
       ]
     }
