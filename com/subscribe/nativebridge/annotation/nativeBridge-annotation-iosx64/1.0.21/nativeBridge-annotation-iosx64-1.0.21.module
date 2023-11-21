@@ -118,10 +118,10 @@
           "name": "nativeBridge-annotation-iosx64-1.0.21-metadata.jar",
           "url": "nativeBridge-annotation-iosx64-1.0.21-metadata.jar",
           "size": 261,
-          "sha512": "325f2b199421866ee5e017a1fd7fefa2dc11259e508ffcba588d47fe88f8f2ab144c7d9c20e5ac2cd99a49a15a086a1ff53b86c616b26dabd48b6f37540ccbd7",
-          "sha256": "c84f467a33831206787c9c4bb3fea03916a5190a25326fd9c61ef0fc161aa971",
-          "sha1": "2c0517c65cfc2914f54e2d200cc3957a123deda9",
-          "md5": "a06c71097b855be0b2a285c34e704236"
+          "sha512": "61463d24a51e1514ce89a57af6677bfa4f93dfa14cc1db586fcbb72176806b68f40413b8ea37597b4ff4a4843607aeb12908bf0bfe35391e33cef793b212eb7e",
+          "sha256": "e140046941c8b92a30262b212ef45c853aaf544ea3dcbd9414a172f58bd78eb9",
+          "sha1": "f9fef5597e4bfc9104d9f6b424c540a4c986a59a",
+          "md5": "6d1b33ac8b81d473f2207ae818fd2e47"
         }
       ]
     }
