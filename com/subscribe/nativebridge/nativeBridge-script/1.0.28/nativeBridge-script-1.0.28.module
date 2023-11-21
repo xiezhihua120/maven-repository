@@ -30,10 +30,10 @@
           "name": "nativeBridge-script-1.0.28.jar",
           "url": "nativeBridge-script-1.0.28.jar",
           "size": 10579,
-          "sha512": "f3f20ccbd936c014073a19ef06a790e2e66775ada4432d4ff342344a0aceabe82ad0198cc7003de2cb7b9747c012fdaf32ff93b5e892b74a5fac68cecb4c78ee",
-          "sha256": "be77cbc6a29038cb7693cb2e703f9315c0e9f3a5f49f50bcfc43c8cd8011f9e1",
-          "sha1": "760c677b81aaccffb381ec4d37e7054a8e480afc",
-          "md5": "6b20b6dd920bbda5362d4de9361710c9"
+          "sha512": "460a749a2f922b89930aec0b4a9b5a78854b35b4c36fdb6f9be6cd91cfad4a66bcadc2ffa55d08d1c18f5ef412faf663967f12b08f80a08f23e52dbaef7ff2d3",
+          "sha256": "dedc5135183c5665635a05ccc6c4d4bb4fc4230aa61f6c2f8a03bb654a7e2aa9",
+          "sha1": "00dcd8d88a9842c85a477f7632ccd998ed97330c",
+          "md5": "9cde466afd932e1c3e6a80555ba65f92"
         }
       ]
     },
@@ -62,10 +62,10 @@
           "name": "nativeBridge-script-1.0.28.jar",
           "url": "nativeBridge-script-1.0.28.jar",
           "size": 10579,
-          "sha512": "f3f20ccbd936c014073a19ef06a790e2e66775ada4432d4ff342344a0aceabe82ad0198cc7003de2cb7b9747c012fdaf32ff93b5e892b74a5fac68cecb4c78ee",
-          "sha256": "be77cbc6a29038cb7693cb2e703f9315c0e9f3a5f49f50bcfc43c8cd8011f9e1",
-          "sha1": "760c677b81aaccffb381ec4d37e7054a8e480afc",
-          "md5": "6b20b6dd920bbda5362d4de9361710c9"
+          "sha512": "460a749a2f922b89930aec0b4a9b5a78854b35b4c36fdb6f9be6cd91cfad4a66bcadc2ffa55d08d1c18f5ef412faf663967f12b08f80a08f23e52dbaef7ff2d3",
+          "sha256": "dedc5135183c5665635a05ccc6c4d4bb4fc4230aa61f6c2f8a03bb654a7e2aa9",
+          "sha1": "00dcd8d88a9842c85a477f7632ccd998ed97330c",
+          "md5": "9cde466afd932e1c3e6a80555ba65f92"
         }
       ]
     }
