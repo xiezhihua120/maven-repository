@@ -1,0 +1,127 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../nativeBridge-annotation/1.0.21/nativeBridge-annotation-1.0.21.module",
+    "group": "com.subscribe.nativebridge.annotation",
+    "module": "nativeBridge-annotation",
+    "version": "1.0.21",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-annotation-jvm-1.0.21.jar",
+          "url": "nativeBridge-annotation-jvm-1.0.21.jar",
+          "size": 21988,
+          "sha512": "23a9dca330d1174b52a386561e5adaa97950afc82c65ce5920f9ee75a55f7f02ab95ee8ce427b8d7be5e8019aa77861205462d9daf4c80c00e39516b6bb43496",
+          "sha256": "ab0370ae47742747f9ad40d4144c9d7293ed9a0079a2dbd426ba9ce9e5c8ac3f",
+          "sha1": "99dd05c8eb8e13b48a3f56b61ff014fe75e73c6b",
+          "md5": "7b931b59a08b7314976d55c10d2ee059"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-annotation-jvm-1.0.21.jar",
+          "url": "nativeBridge-annotation-jvm-1.0.21.jar",
+          "size": 21988,
+          "sha512": "23a9dca330d1174b52a386561e5adaa97950afc82c65ce5920f9ee75a55f7f02ab95ee8ce427b8d7be5e8019aa77861205462d9daf4c80c00e39516b6bb43496",
+          "sha256": "ab0370ae47742747f9ad40d4144c9d7293ed9a0079a2dbd426ba9ce9e5c8ac3f",
+          "sha1": "99dd05c8eb8e13b48a3f56b61ff014fe75e73c6b",
+          "md5": "7b931b59a08b7314976d55c10d2ee059"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "nativeBridge-annotation-jvm-1.0.21-sources.jar",
+          "url": "nativeBridge-annotation-jvm-1.0.21-sources.jar",
+          "size": 8451,
+          "sha512": "f01cf4aa0e95695a83c14111916b30effdb2472e6d1ccd5cb6aa2f138f31627524f34c0e58580d7e7a503daaf70de5c43f664962ee157c5222df2933d1f83eae",
+          "sha256": "b2d9b2fb7a5d5ab78d66236f6628844a9ec5fa9984217e85ef54cb1e3f022127",
+          "sha1": "3568d2359547b222a58d828d5d3f84b8be093fd6",
+          "md5": "2cfa6890251d47563602f6cdea893f6e"
+        }
+      ]
+    }
+  ]
+}
