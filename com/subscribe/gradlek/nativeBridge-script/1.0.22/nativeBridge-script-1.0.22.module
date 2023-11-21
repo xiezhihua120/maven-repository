@@ -20,7 +20,7 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 18,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
@@ -30,10 +30,10 @@
           "name": "nativeBridge-script-1.0.22.jar",
           "url": "nativeBridge-script-1.0.22.jar",
           "size": 10509,
-          "sha512": "a97ac633c33aca478401f8154136e139a71823cd6d1547e19bdec338aa3c277052137d8e9e2bdc0adf6434bfaf234f65c08e1a5830c8574dd6d2170f14f93adb",
-          "sha256": "cd94977ee3449eb8e22c9c07f848cc4ee4ea8da98c986454c379b499a9d7b1e9",
-          "sha1": "4990af7d653f65f48908d54b118dda2352f774ab",
-          "md5": "628560e3774d832cf9300a1a6def3996"
+          "sha512": "ff4fbff01d192e1ad68f3033ee78f551039ede01fba56f69c8166c0bacab475172c5c58a63b893f30b426cf1332a6ea859abfbc22dbd48dc35dfa8fd13878ac5",
+          "sha256": "fe3370deb78d147cf9b43be0f234513fa7f2b3786410325cef50c96a4f232461",
+          "sha1": "21b950d22d205168c16edb71f278a80302ada9c7",
+          "md5": "c1b5451febf1fd1a15469c355874309f"
         }
       ]
     },
@@ -43,7 +43,7 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 18,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "jvm"
@@ -62,10 +62,10 @@
           "name": "nativeBridge-script-1.0.22.jar",
           "url": "nativeBridge-script-1.0.22.jar",
           "size": 10509,
-          "sha512": "a97ac633c33aca478401f8154136e139a71823cd6d1547e19bdec338aa3c277052137d8e9e2bdc0adf6434bfaf234f65c08e1a5830c8574dd6d2170f14f93adb",
-          "sha256": "cd94977ee3449eb8e22c9c07f848cc4ee4ea8da98c986454c379b499a9d7b1e9",
-          "sha1": "4990af7d653f65f48908d54b118dda2352f774ab",
-          "md5": "628560e3774d832cf9300a1a6def3996"
+          "sha512": "ff4fbff01d192e1ad68f3033ee78f551039ede01fba56f69c8166c0bacab475172c5c58a63b893f30b426cf1332a6ea859abfbc22dbd48dc35dfa8fd13878ac5",
+          "sha256": "fe3370deb78d147cf9b43be0f234513fa7f2b3786410325cef50c96a4f232461",
+          "sha1": "21b950d22d205168c16edb71f278a80302ada9c7",
+          "md5": "c1b5451febf1fd1a15469c355874309f"
         }
       ]
     }
