@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.subscribe.gradlek",
+    "module": "nativeBridge-script",
+    "version": "1.0.23",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "nativeBridge-script-1.0.23.jar",
+          "url": "nativeBridge-script-1.0.23.jar",
+          "size": 10509,
+          "sha512": "b63123734215e9a1412e2e6b874bbcb28df7df4c5498f366b490cf0ef1f2a06238b7dc8e8f5d0b2cba455b29b1d851d69ce358bde615cabb9c88e32a71b0d708",
+          "sha256": "6e5b45dc545c9424076e48170f1ecd9d445682053b9ab7ddde80657c373dd05f",
+          "sha1": "e33d819fd43f6fb5d4f5a848651b79302f130775",
+          "md5": "e5d17a5f89ed802a189598aafdb358fe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.9.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-script-1.0.23.jar",
+          "url": "nativeBridge-script-1.0.23.jar",
+          "size": 10509,
+          "sha512": "b63123734215e9a1412e2e6b874bbcb28df7df4c5498f366b490cf0ef1f2a06238b7dc8e8f5d0b2cba455b29b1d851d69ce358bde615cabb9c88e32a71b0d708",
+          "sha256": "6e5b45dc545c9424076e48170f1ecd9d445682053b9ab7ddde80657c373dd05f",
+          "sha1": "e33d819fd43f6fb5d4f5a848651b79302f130775",
+          "md5": "e5d17a5f89ed802a189598aafdb358fe"
+        }
+      ]
+    }
+  ]
+}
