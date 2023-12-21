@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../nativeBridge-annotation/1.0.32/nativeBridge-annotation-1.0.32.module",
+    "group": "com.subscribe.nativebridge.annotation",
+    "module": "nativeBridge-annotation",
+    "version": "1.0.32",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-annotation.klib",
+          "url": "nativeBridge-annotation-macosarm64-1.0.32.klib",
+          "size": 23733,
+          "sha512": "82166b74d2248655f7844ddbb31291032e2b6823be3dddb94fc8f2e7eb85ff055bd3f7029d9ed1345dafa6c8dab8e8c2e78b98391e9f21f1de86f56699666a76",
+          "sha256": "2f0afb3e400711620b7c16f3bbdd322f80a47fc46dd343b0cabf7f277ab2a484",
+          "sha1": "9fab43855973b2d3db906bfcbcd9ad6ec9c22536",
+          "md5": "942bad2d2b675443d46376bdd3de2dbd"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "nativeBridge-annotation-macosarm64-1.0.32-sources.jar",
+          "url": "nativeBridge-annotation-macosarm64-1.0.32-sources.jar",
+          "size": 8451,
+          "sha512": "f01cf4aa0e95695a83c14111916b30effdb2472e6d1ccd5cb6aa2f138f31627524f34c0e58580d7e7a503daaf70de5c43f664962ee157c5222df2933d1f83eae",
+          "sha256": "b2d9b2fb7a5d5ab78d66236f6628844a9ec5fa9984217e85ef54cb1e3f022127",
+          "sha1": "3568d2359547b222a58d828d5d3f84b8be093fd6",
+          "md5": "2cfa6890251d47563602f6cdea893f6e"
+        }
+      ]
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.9.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.21.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nativeBridge-annotation-macosarm64-1.0.32-metadata.jar",
+          "url": "nativeBridge-annotation-macosarm64-1.0.32-metadata.jar",
+          "size": 261,
+          "sha512": "fa5d2861660403f2ed42b23ee2a8c64524b2fe19a31e101673c0de0ba48b2ffebcccc8dc0e9529d73f94dda60eacfbce580b85a64976c89dca7d983f2f9d3644",
+          "sha256": "8aef5b7a1ab2ec6285b99dbff2c2450b84c19f926c11802a6da0b018321c473f",
+          "sha1": "ea9427d5cd00136f442e3132e0e63201bb8b9b26",
+          "md5": "fc4c745db7761538f41d61dfb68b0c55"
+        }
+      ]
+    }
+  ]
+}
